@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plate 3</title>
+  <style>
+    body {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 13px;
+      line-height: 1.4;
+      background: #ffffff;
+      color: #000000;
+      margin: 16px;
+    }
+
+    h1 {
+      font-size: 15px;
+      font-weight: bold;
+      margin: 0 0 12px 0;
+    }
+
+    .table-wrap {
+      overflow-x: auto;
+      margin-bottom: 16px;
+    }
+
+    table {
+      border-collapse: collapse;
+      text-align: left;
+    }
+
+    th, td {
+      border: 1px solid #000000;
+      padding: 6px 10px;
+      white-space: nowrap;
+    }
+
+    th {
+      background: #f0f0f0;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    th.row-label {
+      text-align: center;
+      font-weight: bold;
+      background: #f0f0f0;
+    }
+
+    td.empty {
+      color: #888888;
+    }
+
+    td.cell-clickable {
+      cursor: pointer;
+      user-select: none;
+    }
+
+    td.cell-clickable:hover {
+      background: #e8e8e8;
+    }
+
+    td.selected {
+      background: #000000 !important;
+      color: #ffffff !important;
+    }
+
+    .details-box {
+      border: 1px solid #000000;
+      padding: 12px 16px;
+      max-width: 650px;
+      background: #fafafa;
+    }
+
+    .details-title {
+      font-weight: bold;
+      margin-bottom: 8px;
+      text-transform: uppercase;
+      font-size: 12px;
+      letter-spacing: 0.5px;
+    }
+
+    .details-grid {
+      display: grid;
+      grid-template-columns: 180px 1fr;
+      row-gap: 6px;
+      column-gap: 12px;
+    }
+
+    .details-label {
+      color: #555555;
+    }
+
+    .details-val {
+      font-weight: 500;
+      word-break: break-word;
+    }
+
+    .no-data {
+      color: #666666;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Plate 3</h1>
+
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th></th>
+          <th>1</th>
+          <th>2</th>
+          <th>3</th>
+          <th>4</th>
+          <th>5</th>
+          <th>6</th>
+          <th>7</th>
+          <th>8</th>
+          <th>9</th>
+          <th>10</th>
+          <th>11</th>
+          <th>12</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th class="row-label">A</th>
+          <td class="cell-clickable">UPLB25</td>
+          <td class="cell-clickable">UPLB30</td>
+          <td class="cell-clickable">LS_KABUS-OK</td>
+          <td class="cell-clickable">LS_BINUGAS(DAVIS)</td>
+          <td class="empty"></td>
+          <td class="empty"></td>
+          <td class="empty"></td>
+          <td class="empty"></td>
+          <td class="empty"></td>
+          <td class="empty"></td>
+          <td class="empty"></td>
+          <td class="empty"></td>
+        </tr>
+        <tr>
+          <th class="row-label">B</th>
+          <td class="cell-clickable">UPLB18</td>
+          <td class="cell-clickable">UPLB07</td>
+          <td class="cell-clickable">LS_BINUGAS</td>
+          <td class="cell-clickable">LS_KUYA_MARLON***</td>
+          <td class="empty"></td>
+          <td class="empty"></td>
+          <td class="empty"></td>
+          <td class="empty"></td>
+          <td class="empty"></td>
+          <td class="empty"></td>
+          <td class="empty"></td>
+          <td class="empty"></td>
+        </tr>
+        <tr>
+          <th class="row-label">C</th>
+          <td class="cell-clickable">UPLB22</td>
+          <td class="cell-clickable">UPLB01</td>
+          <td class="cell-clickable">LS_TAMISAN</td>
+          <td class="cell-clickable">BPI_GB01275_MINDORO_WHITE</td>
+          <td class="empty"></td>
+          <td class="empty"></td>
+          <td class="empty"></td>
+          <td class="empty"></td>
+          <td class="empty"></td>
+          <td class="empty"></td>
+          <td class="empty"></td>
+          <td class="empty"></td>
+        </tr>
+        <tr>
+          <th class="row-label">D</th>
+          <td class="cell-clickable">UPLB28</td>
+          <td class="cell-clickable">UPLB06</td>
+          <td class="cell-clickable">LS_BANGON(INABANGA)</td>
+          <td class="cell-clickable">UPLB_26</td>
+          <td class="empty"></td>
+          <td class="empty"></td>
+          <td class="empty"></td>
+          <td class="empty"></td>
+          <td class="empty"></td>
+          <td class="empty"></td>
+          <td class="empty"></td>
+          <td class="empty"></td>
+        </tr>
+        <tr>
+          <th class="row-label">E</th>
+          <td class="cell-clickable">UPLB14</td>
+          <td class="cell-clickable">UPLB11</td>
+          <td class="cell-clickable">LS_TINALINGTING(LOPEZ QUEZON)</td>
+          <td class="cell-clickable">BPI_GB01068_ARITAO</td>
+          <td class="empty"></td>
+          <td class="empty"></td>
+          <td class="empty"></td>
+          <td class="empty"></td>
+          <td class="empty"></td>
+          <td class="empty"></td>
+          <td class="empty"></td>
+          <td class="empty"></td>
+        </tr>
+        <tr>
+          <th class="row-label">F</th>
+          <td class="cell-clickable">UPLB16</td>
+          <td class="cell-clickable">LS_KINAMPAY_BENITA</td>
+          <td class="cell-clickable">LS_KINAMPAY(HUMOT)*</td>
+          <td class="cell-clickable">BPI_GB01397_TINIB_AURORA</td>
+          <td class="empty"></td>
+          <td class="empty"></td>
+          <td class="empty"></td>
+          <td class="empty"></td>
+          <td class="empty"></td>
+          <td class="empty"></td>
+          <td class="empty"></td>
+          <td class="empty"></td>
+        </tr>
+        <tr>
+          <th class="row-label">G</th>
+          <td class="cell-clickable">UPLB20</td>
+          <td class="cell-clickable">LS_KINAMPAY</td>
+          <td class="cell-clickable">LS_KINAMPAY(MARIVELES)**</td>
+          <td class="cell-clickable">BPI_GB01649_BANTUANON_BOHOL</td>
+          <td class="empty"></td>
+          <td class="empty"></td>
+          <td class="empty"></td>
+          <td class="empty"></td>
+          <td class="empty"></td>
+          <td class="empty"></td>
+          <td class="empty"></td>
+          <td class="empty"></td>
+        </tr>
+        <tr>
+          <th class="row-label">H</th>
+          <td class="cell-clickable">UPLB08</td>
+          <td class="cell-clickable">LS_BALIGONHON_PUTI</td>
+          <td class="cell-clickable">LS_KINAMPAY(HUMOT)</td>
+          <td class="empty"></td>
+          <td class="empty"></td>
+          <td class="empty"></td>
+          <td class="empty"></td>
+          <td class="empty"></td>
+          <td class="empty"></td>
+          <td class="empty"></td>
+          <td class="empty"></td>
+          <td class="empty"></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="details-box" id="detailsBox">
+    <div class="details-title">Passport Details</div>
+    <div id="detailsContent" class="no-data">Click a cell to display accession passport details.</div>
+  </div>
+
+  <script>
+    const PASSPORT_DATA = {"AKLAN 1":{"localName":null,"origin":"Nabas, Aklan"},"BALIGONHON":{"localName":null,"origin":"Baybay, Leyte"},"GY-7":{"localName":null,"origin":"NSIC-Registered Variety"},"GY-8":{"localName":null,"origin":"NSIC-Registered Variety"},"IA-005":{"localName":"Farm Lisbon","origin":"Puerto Rico (Dr. Franklin W. Martin of MITA)"},"IA-010":{"localName":"Kabusah","origin":"Puerto Rico (Dr. Franklin W. Martin of MITA)*"},"IA-012":{"localName":"Kinampay","origin":"Puerto Rico (Dr. Franklin W. Martin of MITA)*"},"IA-015":{"localName":"Toki","origin":"Puerto Rico (Dr. Franklin W. Martin of MITA)"},"IA-042":{"localName":null,"origin":"Puerto Rico (Dr. Franklin W. Martin of MITA)"},"IA-226":{"localName":"Florido","origin":"Puerto Rico (Dr. Franklin W. Martin of MITA)"},"IA-231":{"localName":"M18","origin":"Puerto Rico (Dr. Franklin W. Martin of MITA)"},"IA-232":{"localName":"Florido","origin":"Puerto Rico (Dr. Franklin W. Martin of MITA)"},"IA-236":{"localName":"Kabusah*","origin":"Puerto Rico (Dr. Franklin W. Martin of MITA)"},"IA-239":{"localName":"Gunung","origin":"Puerto Rico (Dr. Franklin W. Martin of MITA)"},"IA-248B":{"localName":null,"origin":"Puerto Rico (Dr. Franklin W. Martin of MITA)"},"IA-528":{"localName":null,"origin":"Puerto Rico (Dr. Franklin W. Martin of MITA)"},"LA-005":{"localName":null,"origin":"Baybay, Leyte"},"LA-011":{"localName":null,"origin":"Baybay, Leyte"},"LA-015":{"localName":null,"origin":"Baybay, Leyte"},"LA-015M":{"localName":null,"origin":"Baybay, Leyte"},"LA-019":{"localName":"Liko","origin":"Panglao, Bohol"},"LA-026":{"localName":"Binugas","origin":"Danao, Panglao, Bohol"},"LA-027":{"localName":"Liko","origin":"Tangnan, Panglao, Bohol"},"LA-029":{"localName":"Kinampay","origin":"Dauis, Bohol"},"LA-030":{"localName":"Kagiling","origin":"Baclayon, Bohol"},"LA-034":{"localName":"-","origin":"Tayong Oriental, Loay, Bohol"},"LA-035":{"localName":"Kinampay","origin":"Tayong Oriental, Loay, Bohol"},"LA-036":{"localName":"Kinlot","origin":"Tayong Oriental, Loay, Bohol"},"LA-040":{"localName":"-","origin":"Tayong Oriental, Loay, Bohol"},"LA-041":{"localName":"-","origin":"Tayong Oriental, Loay, Bohol"},"LA-042":{"localName":"-","origin":"Tayong Occidental, Loay, Bohol"},"LA-043":{"localName":"-","origin":"Tayong Occidental, Loay, Bohol"},"LA-044":{"localName":"Balagon-on","origin":"Loay, Bohol"},"LA-045":{"localName":"Kinampay","origin":"Loay, Bohol"},"LA-048":{"localName":"-","origin":"Loay, Bohol"},"LA-050":{"localName":"Binanag","origin":"Butuan (Batuan?), Bohol"},"LA-058":{"localName":"-","origin":"Tubigon, Bohol"},"LA-060":{"localName":"Binanag","origin":"Kabawan, Maribojoc, Bohol"},"LA-061":{"localName":"-","origin":"Kabawan, Maribojoc, Bohol"},"LA-062":{"localName":"Kinlot","origin":"Cabawan, Tagbilaran, Bohol"},"LA-068A":{"localName":"Ubing Buaya","origin":"Sta. Cruz, Marinduque"},"LA-070":{"localName":"Ubing Loklok","origin":"Boac, Marinduque"},"LA-073":{"localName":"Bisakagin or Loklok","origin":"Gasan, Marinduque"},"LA-075":{"localName":"Sinawa","origin":"Rizal, Odiongan, Romblon"},"LA-077":{"localName":"Binu-aya","origin":"San Andres, Romblon"},"LA-085":{"localName":"-","origin":"Puerto Princesa, Palawan"},"LA-087":{"localName":"(White flesh)","origin":"Puerto Princesa, Palawan"},"LA-097":{"localName":"-","origin":"Tabunoc, Villaba, Leyte"},"LA-101":{"localName":"-","origin":"Manloy, Carigara, Leyte"},"LA-102":{"localName":"-","origin":"Manloy, Carigara, Leyte"},"LA-108B":{"localName":"\"Off-type of LA-108\"","origin":"Manloy, Carigara, Leyte"},"LA-110":{"localName":"-","origin":"Tinaguban, Carigara, Leyte"},"LA-112":{"localName":"-","origin":"Kansungka, Baybay, Leyte"},"LA-113":{"localName":"-","origin":"Kansungka, Baybay, Leyte"},"LA-114":{"localName":"-","origin":"Kiga, Baybay, Leyte"},"LA-127":{"localName":"Sinawa","origin":"BPI, San Jose, Antique"},"LA-128":{"localName":"Java","origin":"Concordia, Nueva Valencia, Guimaras Island"},"LA-130":{"localName":"-","origin":"Nueva Valencia, Guimaras Island"},"LA-141":{"localName":"Tinampay","origin":"San Andres, Catbalogan, Samar"},"LA-147":{"localName":"-","origin":"Salcedo, Eastern Samar"},"LA-148":{"localName":"-","origin":"Cogon, Guian, Eastern Samar"},"LA-152":{"localName":"-","origin":"Dawis, Carmen, Cebu"},"LA-153":{"localName":"-","origin":"Carbon, Cebu"},"LA-154":{"localName":"-","origin":"Bogo, Cebu"},"LA-155":{"localName":"-","origin":"Bogo, Cebu"},"LA-157":{"localName":"-","origin":"Danao, Cebu"},"LA-157B":{"localName":"\"Off-type of LA-157\"","origin":"Danao, Cebu"},"LA-160":{"localName":"-","origin":"Badian, Cebu"},"LA-160M":{"localName":"-","origin":"Badian, Cebu"},"LA-165":{"localName":"-","origin":"Tanay, Rizal"},"LA-167":{"localName":"-","origin":"Sta. Cruz, Zambales"},"LA-174":{"localName":"Binanog","origin":"Sta. Maria, Bulacan"},"LA-176":{"localName":"Balagonhon","origin":"Moabog, Pilar, Cebu"},"LA-180":{"localName":"-","origin":"Tudela, Cebu"},"LA-182":{"localName":"Tam-isan","origin":"Poro, Cebu"},"LA-183":{"localName":"Ubing Kamao","origin":"Pangolingan, Paluig, Zambales"},"LA-184":{"localName":"Kinalabaw","origin":"Pangolingan, Paluig, Zambales"},"LA-185M":{"localName":"-","origin":"Pangolingan, Paluig, Zambales"},"LA-189":{"localName":"Nay Engles (VU-1)","origin":"Basco, Batanes"},"LA-189A":{"localName":null,"origin":"Basco, Batanes"},"LA-189B":{"localName":"\"Off-type of LA-189\"","origin":"Basco, Batanes"},"LA-191":{"localName":"Lagan","origin":"Basco, Batanes"},"LA-195A":{"localName":"Ubi","origin":"Laoag, Ilocos Norte"},"LA-198":{"localName":"-","origin":"Vigan, Ilocos Sur"},"LA-213":{"localName":"M13","origin":"Vigan, Ilocos Sur"},"LA-218":{"localName":"M14","origin":"Vigan, Ilocos Sur"},"LA-226":{"localName":null,"origin":"Baybay, Leyte"},"LA-227":{"localName":null,"origin":"Baybay, Leyte"},"LA-231":{"localName":null,"origin":"Cotabato, Maguindanao"},"LA-232":{"localName":null,"origin":"Cotabato, Maguindanao"},"LA-235":{"localName":null,"origin":"Cotabato, Maguindanao"},"LA-237":{"localName":null,"origin":"Cotabato, Maguindanao"},"LA-238":{"localName":null,"origin":"Cotabato, Maguindanao"},"LA-242":{"localName":"Binato Glan","origin":"Cotabato, Maguindanao"},"LA-245":{"localName":"-","origin":"Cotabato, Maguindanao"},"LA-247":{"localName":"-","origin":"La Trinidad, Benguet"},"LA-248A":{"localName":"-","origin":"La Trinidad, Benguet"},"LA-255":{"localName":"-","origin":"Batangas"},"LA-526":{"localName":"-","origin":"Surigao City"},"LA-528":{"localName":"Kabus-ok","origin":"Placer, Surigao del Norte"},"LA-529B":{"localName":"\"Off-type of LA-529\"","origin":"Placer, Surigao del Norte"},"LA-532":{"localName":"Ubi Tapul","origin":"Anahaw, Alegria, Surigao del Norte"},"LA-535":{"localName":"Kinampay","origin":"Kauswagan, Cabadbaran, Agusan del Norte"},"LA-536":{"localName":"Tapul","origin":"Anticala, Cabadbaran, Agusan del Norte"},"LA-539":{"localName":"Ubi Tapul","origin":"Butuan City, Agusan del Norte"},"LA-541":{"localName":"Ubi Violet","origin":"Gingo-og City, Misamis Oriental"},"LA-542":{"localName":"Tapul","origin":"Gingo-og City, Misamis Oriental"},"LA-543":{"localName":"Kinampay","origin":"Linutan, Gingo-og City, Misamis Oriental"},"LA-547":{"localName":"Kinampay","origin":"Pondan, Mambajao, Camiguin Island"},"LA-548":{"localName":"Kabiti","origin":"Pondan, Mambajao, Camiguin Island"},"LA-551":{"localName":"-","origin":"Cogon, Cagayan de Oro City"},"LA-561":{"localName":"Ubi Round","origin":"Sablan, La Union"},"LA-562":{"localName":"Ubi Finger","origin":"Baguio City"},"LA-565":{"localName":"-","origin":"San Antonio, Quezon"},"LA-567":{"localName":"-","origin":"Limay, San Jose, Batangas"},"LA-568B":{"localName":"\"Off-type of LA-568\"","origin":"Limay, San Jose, Batangas"},"LA-571":{"localName":"Sampero","origin":"Baguio City"},"LA-572":{"localName":"Ubi Paserutong","origin":"Gumaca, Quezon"},"LA-574":{"localName":"Ubi Paserutong","origin":"Gumaca, Quezon"},"LA-575":{"localName":"Ubi Paserutong","origin":"Gumaca, Quezon"},"LA-580":{"localName":null,"origin":"Carcar, Cebu"},"LA-582":{"localName":"-","origin":"Borac, Naval. Leyte"},"LA-584":{"localName":"Kinampay Native","origin":"Bandera, Samal Island, Davao Oriental"},"LA-585":{"localName":"-","origin":"Bandera, Samal Island, Davao Oriental"},"LA-588":{"localName":"Kabato","origin":"Albuera, Leyte"},"LA-591":{"localName":"-","origin":"Merida, Leyte"},"LA-592":{"localName":"-","origin":"Tangub City, Misamis Occidental"},"LA-594":{"localName":"-","origin":"Tangub City, Misamis Occidental"},"LA-602":{"localName":"Kinampay (B)","origin":"Canapnapan, Corella, Bohol"},"LA-608":{"localName":"Kinampay (A3)","origin":"Hubasan, Inopacan. Leyte"},"LA-610":{"localName":"-","origin":"Imelda, Butuan City, Agusan del Norte"},"LA-617":{"localName":"Kinampay","origin":"Humay-Humay, Ubay, Bohol"},"LA-618":{"localName":"Ubi","origin":"Kasiguran, Aurora"},"LA-619":{"localName":"Ubi","origin":"Basal, Ma. Aurora, Aurora"},"LA-621":{"localName":"Mindoro","origin":"Kadayakan, Ma. Aurora, Aurora"},"LA-623":{"localName":"Ubi","origin":"Camalatan, Baler, Aurora"},"LA-624":{"localName":"Tam-isan","origin":"Dao, Tagbilaran, Bohol"},"LA-625":{"localName":"Iniling","origin":"Kabawan, City Nursery, Tagbilaran"},"LA-626":{"localName":"Kinlot","origin":"dela Paz, Cortes, Bohol"},"LA-627":{"localName":"Baligonhon","origin":"dela Paz, Cortes, Bohol"},"LA-628":{"localName":"Kinampay","origin":"dela Paz, Cortes, Bohol"},"LA-629":{"localName":"Kabus-ok","origin":"Simang, Valencia Bohol"},"LA-631":{"localName":"Kinampay","origin":"Cansibao, Valencia Bohol"},"LA-632":{"localName":"Binugas","origin":"Beking, Dauis Bohol"},"LA-633":{"localName":"VU-2","origin":"Panglao Bohol"},"LA-635":{"localName":"Baligonhon","origin":"Valencia Bohol"},"LA-636":{"localName":"Kinampay","origin":"Giuoang, Guindulman, Bohol"},"LA-639":{"localName":"Ubi","origin":"Brgy Kasiguran, Aurora"},"LA-640":{"localName":"Ubi","origin":"San Pablo City, Laguna"},"LA-641":{"localName":null,"origin":"Lavezares, Eastern Samar"},"LA-642":{"localName":"Ubi","origin":"Lantapan, Bukidnon"},"LA-643":{"localName":"Ubi","origin":"Lantapan, Bukidnon"},"LA-644":{"localName":"-","origin":"Libertad, Hilongos"},"LA-645":{"localName":"-","origin":"Libertad, Hilongos"},"LA-646":{"localName":"-","origin":"Sogod, Southern Leyte"},"LA-649":{"localName":"-","origin":"Naval, Biliran"},"LA-650":{"localName":"-","origin":"Naval, Biliran"},"LA-651":{"localName":"-","origin":"Naval, Biliran"},"LA-652":{"localName":"-","origin":"Kawayan, Silago Southern Leyte"},"LA-653":{"localName":"Tamaisan","origin":"Kawayan, Silago"},"LA-655":{"localName":null,"origin":"Kawayan, Silago"},"LA-657":{"localName":"Kinampay 14","origin":"BES Ubay, Bohol"},"LA-658":{"localName":"Baligonhon","origin":"Giuo-ang, Guindulman, Bohol"},"LA-659":{"localName":"Baligonhon","origin":"BES Ubay, Bohol"},"LA-660":{"localName":"Kinampay (Gamuton, Di-Humot)","origin":"Mayuga, Guindulman Bohol"},"LA-661":{"localName":"Baligonhon","origin":"BES Ubay, Bohol"},"LA-662":{"localName":"GY-7 M2","origin":"BES Ubay, Bohol"},"LA-663":{"localName":"GY-7 MIR","origin":"BES Ubay, Bohol"},"LA-664":{"localName":"VU-2?","origin":"BES Ubay, Bohol"},"LA-665":{"localName":"VU-2 SMCK","origin":"BES Ubay, Bohol"},"LA-667":{"localName":"Binaksan","origin":"Brgy. Cansiwang Guindulman, Bohol"},"LA-668":{"localName":"ubi","origin":"North Kitanglad Industrial Corp. Bukidnon"},"MINDORO 1":{"localName":null,"origin":"Mindoro"},"N1":{"localName":null,"origin":"Baybay, Leyte"},"N2":{"localName":null,"origin":"Baybay, Leyte"},"N3":{"localName":null,"origin":"Baybay, Leyte"},"N4":{"localName":null,"origin":"Baybay, Leyte"},"N5":{"localName":null,"origin":"Baybay, Leyte"},"PRA 35":{"localName":null,"origin":"NSIC-Registered Variety"},"PRA GY-9":{"localName":null,"origin":"NSIC-Registered Variety"},"PRA-10":{"localName":null,"origin":"NSIC-Registered Variety"},"PRA-11":{"localName":null,"origin":"NSIC-Registered Variety"},"PRA-5":{"localName":null,"origin":"NSIC-Registered Variety"},"SAN ISIDRO":{"localName":null,"origin":"Baybay, Leyte"},"TINAKODO":{"localName":null,"origin":"Baybay, Leyte"},"VU-1":{"localName":null,"origin":"NSIC-Registered Variety"},"VU-2":{"localName":null,"origin":"NSIC-Registered Variety"},"VU-3":{"localName":null,"origin":"NSIC-Registered Variety"},"VU-4":{"localName":null,"origin":"NSIC-Registered Variety"},"VU-5":{"localName":null,"origin":"NSIC-Registered Variety"},"VU-6":{"localName":null,"origin":"NSIC-Registered Variety"}};
+
+    const normalize = value => (value || "").toUpperCase().replace(/[\s_-]/g, "");
+    const passport = Object.fromEntries(Object.entries(PASSPORT_DATA).map(([key, value]) => [normalize(key), { key, ...value }]));
+    const details = document.getElementById("detailsContent");
+
+    document.querySelectorAll("table tbody tr").forEach(row => {
+      const rowName = row.querySelector("th.row-label").textContent.trim();
+      row.querySelectorAll("td:not(.empty)").forEach(cell => {
+        cell.addEventListener("click", () => {
+          document.querySelectorAll("td.selected").forEach(item => item.classList.remove("selected"));
+          cell.classList.add("selected");
+
+          const name = cell.textContent.trim();
+          const record = passport[normalize(name)];
+          const lines = [
+            ["Well Position", rowName + cell.cellIndex],
+            ["Accession Code", name],
+            ["Local / Common Name", record?.localName || "-"],
+            ["Place of Collection", record?.origin || "-"],
+            ["Updated Collection List", record ? "Found" : "Not found"]
+          ];
+
+          details.className = "details-grid";
+          details.replaceChildren(...lines.flatMap(([label, value]) => {
+            const key = document.createElement("div"); key.className = "details-label"; key.textContent = label + ":";
+            const val = document.createElement("div"); val.className = "details-val"; val.textContent = value;
+            return [key, val];
+          }));
+        });
+      });
+    });
+  </script>
+
+</body>
+</html>
