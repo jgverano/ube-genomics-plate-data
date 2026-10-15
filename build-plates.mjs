@@ -1,10 +1,16 @@
 // Rebuilds plateN.html from plateN.tsv so the tables mirror the TSV exactly,
 // including blank wells. Run: node build-plates.mjs
-import { readFileSync, writeFileSync } from "node:fs";
+import { readdirSync, readFileSync, writeFileSync } from "node:fs";
 import { readSheet } from "./read-xlsx.mjs";
 
 const ROWS = "ABCDEFGH".split("");
-const PLATES = [1, 2, 3];
+// Every plateN.tsv in this folder, in number order. A new plate needs only its TSV.
+const PLATES = readdirSync(".")
+  .map(file => /^plate(\d+)\.tsv$/.exec(file))
+  .filter(Boolean)
+  .map(match => Number(match[1]))
+  .sort((a, b) => a - b);
+if (PLATES.length === 0) throw new Error("no plateN.tsv files in this folder");
 
 // Page styling, shared by all three plates.
 const CSS = `
@@ -103,6 +109,45 @@ const CSS = `
     .no-data {
       color: #666666;
       font-style: italic;
+    }
+`;
+
+// Landing page styling.
+const INDEX_CSS = `
+    body {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 13px;
+      line-height: 1.4;
+      background: #ffffff;
+      color: #000000;
+      margin: 16px;
+    }
+
+    h1 {
+      font-size: 15px;
+      font-weight: bold;
+      margin: 0 0 12px 0;
+    }
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 6px;
+    }
+
+    a {
+      color: #000000;
+      text-decoration: none;
+      border-bottom: 1px solid #000000;
+    }
+
+    a:hover {
+      background: #000000;
+      color: #ffffff;
     }
 `;
 
@@ -219,3 +264,26 @@ ${script}
   const filled = tsv.body.flat().filter(Boolean).length;
   console.log(`plate${n}.html: ${filled} filled wells, ${96 - filled} blank wells`);
 }
+
+// The landing page lists every plate file, so it cannot go stale.
+const links = PLATES.map(n => `    <li><a href="plate${n}.html">Plate ${n}</a></li>`).join("\n");
+writeFileSync("index.html", `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ube Genomics Plate Data</title>
+  <style>${INDEX_CSS}  </style>
+</head>
+<body>
+
+  <h1>Ube Genomics Plate Data</h1>
+
+  <ul>
+${links}
+  </ul>
+
+</body>
+</html>
+`);
+console.log(`index.html: ${PLATES.length} plate links`);
