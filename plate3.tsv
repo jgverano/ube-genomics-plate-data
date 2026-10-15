@@ -1,9 +1,9 @@
- 	 1     	 2                 	 3                             	 4                          	 5	 6	 7	 8	 9	 10	 11	 12
-A	 UPLB25	 UPLB30            	 LS_KABUS-OK                   	 LS_BINUGAS(DAVIS)         	  	  	  	  	  	   	   	   
-B	 UPLB18	 UPLB07            	 LS_BINUGAS                    	 LS_KUYA_MARLON***          	  	  	  	  	  	   	   	   
-C	 UPLB22	 UPLB01            	 LS_TAMISAN                    	 BPI_GB01275_MINDORO_WHITE 	  	  	  	  	  	   	   	   
-D	 UPLB28	 UPLB06            	 LS_BANGON(INABANGA)          	 UPLB_26                    	  	  	  	  	  	   	   	   
-E	 UPLB14	 UPLB11            	 LS_TINALINGTING(LOPEZ QUEZON)	 BPI_GB01068_ARITAO         	  	  	  	  	  	   	   	   
-F	 UPLB16	 LS_KINAMPAY_BENITA	 LS_KINAMPAY(HUMOT)*          	 BPI_GB01397_TINIB_AURORA   	  	  	  	  	  	   	   	   
-G	 UPLB20	 LS_KINAMPAY       	 LS_KINAMPAY(MARIVELES)**     	 BPI_GB01649_BANTUANON_BOHOL	  	  	  	  	  	   	   	   
-H	 UPLB08	 LS_BALIGONHON_PUTI	 LS_KINAMPAY(HUMOT)           	                            	  	  	  	  	  	   	   	   
+ 	 1     	 2                 	 3                             	 4                          	 5                          	 6                 	 7         	 8    	 9    	 10   	 11    	 12
+A	 UPLB25	 UPLB30            	 LS KABUS-OK                   	 LS BINUGAS (DAVIS)         	 BPI GB01236 MINDORO        	 BPI GB01632 TARLAC	 UPLB03    	 LE038	 LE026	 LE028	 LE022 	 LE075
+B	 UPLB18	 UPLB07            	 LS BINUGAS                    	 LS KUYA MARLON***          	 BPI GB01656 MONTALBAN RITAL	 UPLB23            	 UPLB02    	 LE060	 LE039	 LE047	 LE011M	 LE024
+C	 UPLB22	 UPLB01            	 LS TAMISAN                    	 BPI GB 01275 MINDORO WHITE 	 BPI GB01396 TINIB AURORA   	 UPLB15            	 UPLB05    	 LE056	 LE034	 VT5  	 LE007 	 LE066
+D	 UPLB28	 UPLB06            	 LS BANGON (INABANGA)          	 UPLB 26                    	 BPI GB01234 MINDORO        	 UPLB24            	 UPLB21    	 LE053	 LE031	 IW0  	 LE011 	 LE067
+E	 UPLB14	 UPLB11            	 LS TINALINGTING (LOPEZ QUEZON)	 BPI GB01068 ARITAO         	 BPI GB01672 MARINDUQUE     	 UPLB31            	 UPLB19    	 LE055	 LE069	 LE001	 LE005 	 LH004
+F	 UPLB16	 LS KINAMPAY BENITA	 LS KINAMPAY (HUMOT)*          	 BPI GB01397 TINIB AURORA   	 BPI GB01182 MINDORO        	 UPLB27            	 UPLB BITIN	 LE064	 LH013	 LE007	 LE008 	 LE025
+G	 UPLB20	 LS KINAMPAY       	 LS KINAMPAY (MARIVELES)**     	 BPI GB01649 BANTUANON BOHOL	 BPI GB01620 BENGUET        	 UPLB17            	 UPLB09    	 LE021	 LE040	 VT2  	 LE048 	 
+H	 UPLB08	 LS BALIGONHON PUTI	 LS KINAMPAY (HUMOT)           	 BPI GB01643 BATANGAS       	 BPI GBD1398 MINDORO        	 UPLB12            	 LE027     	 LE037	 LE030	 LE041	 LE049 	 
