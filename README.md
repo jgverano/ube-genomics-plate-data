@@ -4,9 +4,10 @@ Plain text standalone HTML tables for QR code scanning. Each plate is isolated o
 
 ## QR Code Direct Links
 
-- **Plate 1:** `https://jgverano.github.io/ube-genomics-plate-data/plate1.html`
-- **Plate 2:** `https://jgverano.github.io/ube-genomics-plate-data/plate2.html`
-- **Plate 3:** `https://jgverano.github.io/ube-genomics-plate-data/plate3.html`
+- **Landing page:** [`https://jgverano.github.io/ube-genomics-plate-data/`](https://jgverano.github.io/ube-genomics-plate-data/)
+- **Plate 1:** [`https://jgverano.github.io/ube-genomics-plate-data/plate1.html`](https://jgverano.github.io/ube-genomics-plate-data/plate1.html)
+- **Plate 2:** [`https://jgverano.github.io/ube-genomics-plate-data/plate2.html`](https://jgverano.github.io/ube-genomics-plate-data/plate2.html)
+- **Plate 3:** [`https://jgverano.github.io/ube-genomics-plate-data/plate3.html`](https://jgverano.github.io/ube-genomics-plate-data/plate3.html)
 
 ## Files
 
