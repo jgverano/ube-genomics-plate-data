@@ -12,6 +12,11 @@ const PLATES = readdirSync(".")
   .sort((a, b) => a - b);
 if (PLATES.length === 0) throw new Error("no plateN.tsv files in this folder");
 
+// Footnotes shown under the table, keyed by plate number. Plates without an entry get none.
+const LEGENDS = {
+  3: ["LS: LORNA SISTER", "*DAVIS BOY JIMENEZ", "**BALIK BINHI", "***3-LEAF DIOSCOREA"],
+};
+
 // Page styling, shared by all three plates.
 const CSS = `
     body {
@@ -229,6 +234,10 @@ const script = `
 
 for (const n of PLATES) {
   const tsv = readTsv(`plate${n}.tsv`);
+  const legend = LEGENDS[n] && `  <div class="details-box">
+    <div class="details-title">Legend</div>
+${LEGENDS[n].map(line => `    <div>${esc(line)}</div>`).join("\n")}
+  </div>`
   const html = `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -246,7 +255,7 @@ for (const n of PLATES) {
 ${table(tsv)}
     </table>
   </div>
-
+${legend || ""}
   <div class="details-box" id="detailsBox">
     <div class="details-title">Passport Details</div>
     <div id="detailsContent" class="no-data">Click a cell to display accession passport details.</div>
