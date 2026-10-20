@@ -9,6 +9,7 @@ Plain text standalone HTML tables for QR code scanning. Each plate is isolated o
 - **Plate 2:** [`https://jgverano.github.io/ube-genomics-plate-data/plate2.html`](https://jgverano.github.io/ube-genomics-plate-data/plate2.html)
 - **Plate 3:** [`https://jgverano.github.io/ube-genomics-plate-data/plate3.html`](https://jgverano.github.io/ube-genomics-plate-data/plate3.html)
 - **Plate 4:** [`https://jgverano.github.io/ube-genomics-plate-data/plate4.html`](https://jgverano.github.io/ube-genomics-plate-data/plate4.html)
+- **Plate 5:** [`https://jgverano.github.io/ube-genomics-plate-data/plate5.html`](https://jgverano.github.io/ube-genomics-plate-data/plate5.html)
 
 ## Files
 
@@ -17,10 +18,12 @@ Plain text standalone HTML tables for QR code scanning. Each plate is isolated o
 - [plate2.html](plate2.html) (standalone Plate 2 table)
 - [plate3.html](plate3.html) (standalone Plate 3 table)
 - [plate4.html](plate4.html) (standalone Plate 4 table)
+- [plate5.html](plate5.html) (standalone Plate 5 table)
 - [plate1.tsv](plate1.tsv)
 - [plate2.tsv](plate2.tsv)
 - [plate3.tsv](plate3.tsv)
 - [plate4.tsv](plate4.tsv)
+- [plate5.tsv](plate5.tsv)
 - Final-D.-alata-Accessions-Passport-1.xlsx (local only, not in the repo — the metadata source)
 - [build-plates.mjs](build-plates.mjs) (build script)
 - [read-xlsx.mjs](read-xlsx.mjs) (reads a sheet from an .xlsx file)

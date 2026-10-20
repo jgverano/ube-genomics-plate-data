@@ -15,6 +15,7 @@ if (PLATES.length === 0) throw new Error("no plateN.tsv files in this folder");
 // Footnotes shown under the table, keyed by plate number. Plates without an entry get none.
 const LEGENDS = {
   3: ["LS: LORNA SISTER", "*DAVIS BOY JIMENEZ", "**BALIK BINHI", "***3-LEAF DIOSCOREA"],
+  5: ["*Additional 10 Bay"],
 };
 
 // Page styling, shared by all three plates.
